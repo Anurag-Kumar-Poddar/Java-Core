@@ -3,5 +3,9 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to java!");
+        Hello hello = new Hello();
+        Hello anurag = new Hello("anurag");
+        hello.welcome();
+        anurag.welcome();
     }
 }
