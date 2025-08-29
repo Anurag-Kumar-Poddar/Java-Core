@@ -2,10 +2,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to java!");
-        Hello hello = new Hello();
-        Hello anurag = new Hello("anurag");
-        hello.welcome();
-        anurag.welcome();
+//        System.out.println("Welcome to java!");
+//        Hello hello = new Hello();
+//        Hello anurag = new Hello("anurag");
+//        hello.welcome();
+//        anurag.welcome();
+        DataTypes dataTypes = new DataTypes();
+        dataTypes.typesWithExample();
     }
 }
